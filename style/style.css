@@ -158,6 +158,44 @@ main{
     display: inline-block;
 }
 
+
+/* Testimonials */
+.testimonials{
+    padding: 2rem;
+    line-height: 2rem;
+}
+.testimonials h2{
+    color: var(--purple);
+    margin: 1rem 0;
+}
+
+.tes-card{
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: var(--purple);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+.testimonials img{
+    border-radius: 100%;
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.tes-description::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f10d";
+    margin-right: 0.5rem;
+}
+
+.tes-description::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f10e";
+    margin-left: 0.5rem;
+}
+
  @media all and (min-width: 768px){
     /* Main */
     .twothirds{
@@ -166,6 +204,21 @@ main{
 
     .onethird{
         flex-basis: 27%;
+    }
+
+    /* testimonials */
+
+    .tes-card{
+        flex-direction: row;
+    }
+
+    .tes-text{
+        margin-left: 1rem;
+    }
+
+    .tes-card h3{
+        text-align: left;
+       
     }
  }
 
@@ -209,4 +262,10 @@ main{
         max-width: 40%;
         margin-top: 10rem;
     }
+
+    /* testimonials */
+   
+    .tes-card h3{
+        margin-left: 1rem;
+    } 
 }
