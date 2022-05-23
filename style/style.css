@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-blue: #0084fd;
+    --light-blue: #b5ddff;
+    --purple: #9792e4;
+    --orange: #fdc15f;
+    --dark-grey:#333333;
+
+}
+
+.p-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.site-header{
+    background-color: skyblue;
+    height: 60px; /* Da redifinire dopo inseriti i contenuti */
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+
+ @media all and (min-width: 762px){
+
+ }
+
+ @media all and (min-width: 992px){
+    .site-header .container{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+}
