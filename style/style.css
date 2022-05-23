@@ -119,6 +119,44 @@ main{
     
 }
 
+/* Strategy */
+
+.strategy{
+    background-color: var(--purple);
+    color: whitesmoke;
+    padding: 2rem 1.5rem;
+    line-height: 2rem;
+}
+
+.strategy img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.strategy h2{
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.strategy .card{
+    margin: 3rem 0 0 0;
+    background-color: whitesmoke;
+    color: var(--dark-grey);
+}
+.strategy .card-text{
+    margin-bottom: 2rem;
+}
+
+.arrow{
+    color: black;
+    background-color: var(--purple);
+    padding: 12px 15px;
+    border-radius: 100%;
+}
+.arrow i{
+    color: var(--dark-grey);
+    display: inline-block;
+}
 
  @media all and (min-width: 768px){
     /* Main */
@@ -154,5 +192,21 @@ main{
     .twothirds{
         display: flex;
         flex-direction: row;
+    }
+
+    /* strategy */
+    .strategy-container{
+        max-width: 992px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .strategy-lx{
+        max-width: 40%;
+    }
+    .strategy .card{
+        max-width: 40%;
+        margin-top: 10rem;
     }
 }
