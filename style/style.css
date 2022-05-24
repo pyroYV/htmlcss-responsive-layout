@@ -209,7 +209,7 @@ main{
     color: whitesmoke;
     text-align: center;
     font-size: 38px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .ben-card{
@@ -233,6 +233,7 @@ main{
 }
 .ben-card p{
     margin-bottom: 2rem;
+    line-height: 1.5rem;
 }
 .more{
     color: whitesmoke;
@@ -240,6 +241,7 @@ main{
     padding: 0.5rem 3rem;
     border-radius: 30px;  
 }
+
  @media all and (min-width: 768px){
     /* Main */
     .twothirds{
@@ -265,6 +267,18 @@ main{
        
     }
  }
+
+    /* Benefits */
+
+    .benefits .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap ;
+    }
+
+    .ben-card{
+        flex-basis: 48%;
+    }
 
  @media all and (min-width: 992px){
 
@@ -312,4 +326,10 @@ main{
     .tes-card h3{
         margin-left: 1rem;
     } 
+
+    /* benefits */
+
+    .ben-card{
+        flex-basis: 32%;
+    }
 }
