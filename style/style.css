@@ -323,6 +323,23 @@ main{
     margin: 1rem;
 }
 
+    /* footer */
+
+    footer{
+        background-color: var(--dark-grey);
+        padding: 2rem;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    footer p{
+        margin-bottom: 3rem;
+    }
+
+
+
+
+
 
  @media all and (min-width: 768px){
     /* Main */
@@ -395,6 +412,11 @@ main{
         width: 80%;
         margin: 0 auto;
     }
+
+    footer>.container{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
  @media all and (min-width: 992px){
 
@@ -450,6 +472,11 @@ main{
     }
 
     .get-started>.container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    footer>.container{
         width: 70%;
         margin: 0 auto;
     }
